@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #F8F8F8
+}
+
+.table-striped > tbody > tr:nth-of-type(1) {
+  background-color: #FFFEDF
+}

@@ -2320,10 +2320,7 @@ if (typeof jQuery === 'undefined') {
 var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1w5SMp-ReZ0wUAUz2skFkyeg1W6TyjR66NMAG-iwvGaE/edit#gid=748173864';
 
 // Load an entire worksheet.
-$('#p4p').sheetrock({
-  url: mySpreadsheet,
-    query: "select D,E"
-});
+
 
 $('#flyweight').sheetrock({
   url: mySpreadsheet,
@@ -2338,6 +2335,31 @@ $('#bantamweight').sheetrock({
 $('#featherweight').sheetrock({
   url: mySpreadsheet,
     query: "select S,T"
+});
+
+$('#lightweight').sheetrock({
+  url: mySpreadsheet,
+    query: "select X,Y"
+});
+
+$('#welterweight').sheetrock({
+  url: mySpreadsheet,
+    query: "select AC,AD"
+});
+
+$('#middleweight').sheetrock({
+  url: mySpreadsheet,
+    query: "select AH,AI"
+});
+
+$('#lightheavyweight').sheetrock({
+  url: mySpreadsheet,
+    query: "select AM,AN"
+});
+
+$('#heavyweight').sheetrock({
+  url: mySpreadsheet,
+    query: "select AR,AS"
 });
 
 
